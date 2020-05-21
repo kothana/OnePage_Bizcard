@@ -139,6 +139,12 @@ section {
   align-items: center;
 }
 
+picture {
+  opacity: 0.8;
+}
+picture:hover {
+  opacity: 1;
+}
 #about-text {
   width: 60vw;
   color: rgb(45, 45, 105);
