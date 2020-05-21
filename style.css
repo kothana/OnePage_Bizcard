@@ -16,8 +16,8 @@ header {
   box-sizing: border-box;
   top: 0;
   width: 100%;
-  height: 145px;
-  background: white;
+  height: 100px;
+  background: rgb(72, 112, 245);
   padding: 15px 30px;
   display: flex;
   align-items: center;
