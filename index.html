@@ -4,17 +4,46 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Wizytówka</title>
+        <title>ClokWork Page</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <h1>Wizytówka firmowa</h1>
+            <div class="logo">
+                <a href="#home"><img id="header-img" src="assets/images/SW_Icon.png"></a>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#course-section">Kursy</a></li>
+                    <li><a class="nav-link" href="#about-section">O mnie</a></li>
+                    <li><a class="nav-link" href="#contact-section">Kontakt</a></li>
+                </ul>
+            </nav>
         </header>
-        <section>
-            
+        <section id="home">
+            <img id="home-img" src="assets/images/home-page-tester.jpg" alt="The Sweet Wild Logo with botanical background">            
         </section>
-        
+        <section id="course-section">
+            <h2 class="section-title">Kursy</h2>
+                <div class="product-items">
+                    <div class="product">
+                        <a href="#" target="_blank"><img src="#" alt=""></a>
+                        <p class="product-title">Kurs 1</p>
+                    </div>
+                    <div class="product">
+                        <a href="#" target="_blank"><img src="#" alt=""></a>
+                        <p class="product-title">Kurs 1</p>
+                    </div>
+                </div>
+
+
+        </section>
+        <section id="about-section">
+        </section>
+        <section id="contact-section">            
+        </section>
+
         <script src="main.js"></script>
     </body>
 </html>
